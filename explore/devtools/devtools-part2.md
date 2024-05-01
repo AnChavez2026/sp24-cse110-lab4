@@ -1,0 +1,2 @@
+1. THe bug was the num1 and num2 are treated like strings so when added they would just concatnate. For examples "1" + "2" would eqaul "12"
+2. To turn the strings into integers we can use the function parseFloat on num1 to turn it into an integer and then when adding num2 it will be treated as an integer too.
